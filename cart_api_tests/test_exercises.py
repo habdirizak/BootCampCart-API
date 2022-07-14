@@ -3,7 +3,7 @@ from .test_heartbeat import TestClient
 
 PRODUCTS_PATH = "/v1/products"
 PRODUCT_PATH = "/v1/products/{id}"
-EXAMPLE_CART_ITEM = dict(name="Cool Test Item", price=4.99, quantity=1)
+EXAMPLE_CART_ITEM = dict(id=1, name="Cool Test Item", price=4.99, quantity=1)
 
 
 class Exercise1(TestClient):
